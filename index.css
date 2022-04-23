@@ -334,7 +334,7 @@ body {
 #busy {
     display: flex;
     background-color: #fafafa;
-    padding: 5% 6% 0% 2%;
+    padding: 3% 6% 5% 2%;
     justify-content: space-around;
 }
 
