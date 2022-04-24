@@ -191,7 +191,7 @@ body {
 }
 
 .menu .row img {
-    width: 200px;
+    width: 100px;
     margin-top: 4%;
 }
 
@@ -243,6 +243,7 @@ body {
 
 .text-box-three img {
     width: 650px;
+    margin-bottom: 3%;
 }
 
 
