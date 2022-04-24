@@ -27,9 +27,9 @@ sr.reveal(
         delay: 400,
     }
 );
-sr.reveal(".account-container, #busy, .main-container-two", { interval: 700 });
+sr.reveal(".account-container, #busy, .main-container-two", { interval: 300 });
 sr.reveal(
     ".main-box, .input, .footertext, .main-text, .sp-btn, .text-box2-text,", {
-        interval: 700,
+        interval: 300,
     }
 );
