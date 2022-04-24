@@ -19,6 +19,20 @@ body {
     overflow-x: hidden;
 }
 
+.btn:hover {
+    transition: 2s;
+    transition-delay: 0.001s;
+    transform: scale(1.1);
+    scroll-behavior: smooth;
+}
+
+#sp-btn:hover {
+    transition: 3s;
+    transition-delay: 0.001s;
+    transform: scale(1.1);
+    scroll-behavior: smooth;
+}
+
 
 /*===============================================NAVIGATION-BAR=============================================================*/
 
@@ -41,6 +55,10 @@ body {
     font-weight: bold;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 
 /*===============================================MAIN-CONTAINER-ONE=============================================================*/
 
@@ -55,7 +73,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #DD4B1A;
-    padding: 3% 0% 2% 5%;
+    padding: 3% 0% 3% 5%;
     border-radius: 35px;
     margin: 3% 5% 0% 6%;
 }
@@ -105,6 +123,7 @@ body {
     /* display: grid;
     grid-template-columns: 1fr 1fr; */
     margin: 5% 3% 0% 4%;
+    padding-top: 3%;
 }
 
 .main-container-two img {
@@ -155,6 +174,7 @@ body {
 
 .menu {
     margin-top: 7%;
+    padding-top: 3%;
 }
 
 .menu-header {
@@ -171,7 +191,7 @@ body {
 }
 
 .menu .row img {
-    width: 100px;
+    width: 200px;
     margin-top: 4%;
 }
 
@@ -188,6 +208,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 10% 3% 0% 2%;
+    padding-top: 3%;
 }
 
 .text-box-three h4 {
@@ -229,6 +250,7 @@ body {
 
 .main-container-four {
     margin: 5% 0% 3% 0%;
+    padding-top: 3%;
 }
 
 .main-box {
@@ -317,7 +339,8 @@ body {
 #menu-price {
     background-color: #fafafa;
     padding: 5% 5% 5% 5%;
-    margin-top: 7%;
+    margin-top: 12%;
+    padding-top: 5%;
 }
 
 .immg {
@@ -334,8 +357,9 @@ body {
 #busy {
     display: flex;
     background-color: #fafafa;
-    padding: 3% 6% 5% 2%;
+    padding: 5% 6% 3% 2%;
     justify-content: space-around;
+    padding-top: 3%;
 }
 
 .busy-2 {
@@ -382,6 +406,7 @@ body {
     align-items: center;
     margin-top: 2%;
     color: #2f4858;
+    padding-top: 3%;
 }
 
 .account-container {
@@ -447,11 +472,11 @@ input:focus {
     margin-top: 2%;
     color: #2f4858;
     background-color: #fafafa;
-    padding: 30px;
+    padding: 40px;
 }
 
 .sp-img {
-    width: 300px;
+    width: 250px;
 }
 
 
@@ -465,7 +490,7 @@ input:focus {
 .grid-footer-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 5% 5% 1% 5%;
+    margin: 5% 10% 1% 10%;
 }
 
 .second-grid-container {
@@ -526,7 +551,7 @@ span {
         padding: 0% 0% 0% 5%;
     }
     .main-container h1 {
-        font-size: 55px;
+        font-size: 49px;
         margin-top: 2%;
     }
     .main-container p {
