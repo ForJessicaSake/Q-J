@@ -340,7 +340,7 @@ body {
 #menu-price {
     background-color: #fafafa;
     padding: 5% 5% 5% 5%;
-    margin-top: 12%;
+    margin-top: 13%;
     padding-top: 5%;
 }
 
@@ -357,8 +357,7 @@ body {
 
 #busy {
     display: flex;
-    background-color: #fafafa;
-    padding: 5% 6% 3% 2%;
+    padding: 4% 6% 3% 2%;
     justify-content: space-around;
     padding-top: 3%;
 }
@@ -467,17 +466,17 @@ input:focus {
 }
 
 
-/*===============================CHEF*/
+/*=================================================CHEF=======================================================================*/
 
 #chefs {
     margin-top: 2%;
     color: #2f4858;
     background-color: #fafafa;
-    padding: 40px;
+    padding: 60px;
 }
 
 .sp-img {
-    width: 250px;
+    width: 200px;
 }
 
 
