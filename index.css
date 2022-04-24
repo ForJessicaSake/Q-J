@@ -114,7 +114,7 @@
     }
     
     .nav-link {
-        width: 185px;
+        width: 160px;
         color: #2F4858;
     }
     
@@ -144,6 +144,7 @@
     
     .image {
         width: 500px;
+        margin-right: 7%;
     }
     
     .text-box-one h1 {
