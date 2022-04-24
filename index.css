@@ -691,11 +691,15 @@ span {
         width: 200px;
         font-size: 1.2rem;
     }
+    #chefs {
+        margin-top: 2%;
+        padding: 10px 0px;
+    }
     .sp-img {
-        width: 160px;
+        width: 150px;
     }
     .p-image {
-        width: 210px;
+        width: 200px;
     }
     .account-container h2 {
         font-size: 1.8rem;
