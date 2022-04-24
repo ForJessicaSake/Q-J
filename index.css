@@ -49,62 +49,8 @@
         display: block;
     }
     
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 4;
-        left: 0;
-        top: 10%;
-        width: 50%;
-        overflow: auto;
-        background-color: rgba(187, 187, 187, 0.4);
-        border-radius: 5px;
-    }
-    
-    .modal-content {
-        margin: 5% auto;
-        padding: 5px;
-        border: 1px solid #fafafa;
-        width: 94%;
-        display: flex;
-        background-color: #fafafa;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        border-radius: 5px;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    
-    .modal-content p {
-        width: 92%;
-        font-size: 14px;
-        text-align: justify;
-    }
-    
-    .modal-content button {
-        background-color: red;
-        padding: 5px;
-        color: black;
-        border: 0px;
-        font-weight: bold;
-        height: 50px;
-        margin-top: 3%;
-    }
-    
     button a {
         display: block;
-    }
-    
-    .close {
-        float: right;
-        font-size: 25px;
-        font-weight: bold;
-    }
-    
-    .close:hover,
-    .close:focus {
-        color: black;
-        text-decoration: none;
-        cursor: pointer;
     }
     /*===============================================NAVIGATION-BAR=============================================================*/
     
@@ -516,7 +462,7 @@
     }
     /*=================================================CHEF=======================================================================*/
     
-    .chefs {
+    #chefs {
         margin-top: 2%;
         color: #2f4858;
         background-color: #fafafa;
@@ -735,33 +681,6 @@
             width: 200px;
             font-size: 1.2rem;
         }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 4;
-            left: 0;
-            top: 10%;
-            width: 96%;
-            overflow: hidden;
-            background-color: rgba(187, 187, 187, 0.4);
-            border-radius: 5px;
-            height: 160px;
-        }
-        .modal-content {
-            margin-top: 4%;
-        }
-        .modal-content p {
-            font-size: 14px;
-        }
-        .modal-content button {
-            background-color: red;
-            padding: 5px;
-            color: black;
-            border: 0px;
-            font-weight: bold;
-            height: 50px;
-            margin-top: 4%;
-        }
         button a {
             display: block;
         }
@@ -967,34 +886,6 @@
             text-align: center;
             font-size: 2.5rem;
         }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 4;
-            left: 0;
-            top: 10%;
-            width: 98%;
-            overflow: hidden;
-            background-color: rgba(187, 187, 187, 0.4);
-            border-radius: 5px;
-            height: 160px;
-        }
-        .modal-content {
-            width: 96%;
-            margin-top: 3%;
-        }
-        .modal-content p {
-            font-size: 15px;
-        }
-        .modal-content button {
-            background-color: red;
-            padding: 5px;
-            color: black;
-            border: 0px;
-            font-weight: bold;
-            height: 50px;
-            margin-top: 4%;
-        }
         .account-container h2 {
             font-size: 1.8rem;
         }
@@ -1194,34 +1085,6 @@
         }
         .box-two img {
             width: 450px;
-        }
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 4;
-            left: 0;
-            top: 10%;
-            width: 98%;
-            overflow: hidden;
-            background-color: rgba(187, 187, 187, 0.4);
-            border-radius: 5px;
-            height: 170px;
-        }
-        .modal-content {
-            width: 96%;
-            margin-top: 3%;
-        }
-        .modal-content p {
-            font-size: 20px;
-        }
-        .modal-content button {
-            background-color: red;
-            padding: 5px;
-            color: black;
-            border: 0px;
-            font-weight: bold;
-            height: 50px;
-            margin-top: 3%;
         }
         .subscribe .input {
             display: flex;
