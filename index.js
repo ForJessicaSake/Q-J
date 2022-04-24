@@ -13,7 +13,7 @@ const specialButtonEffect = document
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: "bottom",
-    distance: "100px",
+    distance: "150px",
     duration: 2200,
     delay: 200,
     //     reset: true
@@ -27,9 +27,9 @@ sr.reveal(
         delay: 400,
     }
 );
-sr.reveal(".account-container, #busy, .main-container-two", { interval: 300 });
+sr.reveal(".account-container, #busy, .main-container-two", { interval: 500 });
 sr.reveal(
     ".main-box, .input, .footertext, .main-text, .sp-btn, .text-box2-text,", {
-        interval: 300,
+        interval: 500,
     }
 );

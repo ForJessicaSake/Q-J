@@ -528,8 +528,6 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-        }
-        html {
             scroll-behavior: smooth;
         }
         .navigation ul {
@@ -735,6 +733,7 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            scroll-behavior: smooth;
         }
         html {
             scroll-behavior: smooth;
@@ -928,8 +927,6 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-        }
-        html {
             scroll-behavior: smooth;
         }
         .navigation ul {
