@@ -52,6 +52,10 @@
     button a {
         display: block;
     }
+    
+    body {
+        scroll-behavior: smooth;
+    }
     /*===============================================NAVIGATION-BAR=============================================================*/
     
     .navigation {
