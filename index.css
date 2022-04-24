@@ -476,7 +476,11 @@ input:focus {
 }
 
 .sp-img {
-    width: 200px;
+    width: 230px;
+}
+
+p-image {
+    width: 330px;
 }
 
 
@@ -687,6 +691,12 @@ span {
         width: 200px;
         font-size: 1.2rem;
     }
+    .sp-img {
+        width: 170px;
+    }
+    .p-image {
+        width: 220px;
+    }
     .account-container h2 {
         font-size: 1.8rem;
     }
@@ -893,6 +903,12 @@ span {
         width: 200px;
         margin-top: 5%;
         padding: 5px;
+    }
+    .sp-img {
+        width: 170px;
+    }
+    .p-image {
+        width: 220px;
     }
     .input {
         flex-direction: column;
