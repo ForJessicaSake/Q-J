@@ -519,6 +519,14 @@
     #footer-brand {
         font-weight: bold;
     }
+    
+    #footer a {
+        color: black;
+    }
+    
+    #footer i {
+        margin: 0px 8px 0px 8px;
+    }
     /*===============================================MEDIA QUERIES small screens=============================================================*/
     
     @media only screen and (max-width: 480px) and (min-width: 320px) {
