@@ -12,8 +12,8 @@ const specialButtonEffect = document
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
-    origin: "bottom",
-    distance: "120px",
+    origin: "top",
+    distance: "110px",
     duration: 2200,
     delay: 200,
     //     reset: true
