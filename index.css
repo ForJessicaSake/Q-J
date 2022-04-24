@@ -472,7 +472,7 @@ input:focus {
     margin-top: 2%;
     color: #2f4858;
     background-color: #fafafa;
-    padding: 60px;
+    padding: 40px;
 }
 
 .sp-img {
@@ -692,10 +692,10 @@ span {
         font-size: 1.2rem;
     }
     .sp-img {
-        width: 170px;
+        width: 120px;
     }
     .p-image {
-        width: 220px;
+        width: 170px;
     }
     .account-container h2 {
         font-size: 1.8rem;
