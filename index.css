@@ -291,6 +291,7 @@
             background-color: #DD4B1A;
             border-radius: 40px;
             margin-left: 23%;
+            padding: 0px 5px;
         }
         
         .box-two {
@@ -314,6 +315,7 @@
         
         .box-two p {
             font-size: 18px;
+            padding: 0px 5px;
         }
         
         .box-text p {
@@ -323,7 +325,7 @@
         }
         
         .box-text button {
-            margin: 0% 0% 5% 0%;
+            margin: 0% 0% 7% 0%;
             padding: 12px;
             border: 0px;
             background-color: #2F4858;
@@ -335,7 +337,7 @@
         }
         
         .box-two img {
-            width: 250px;
+            width: 280px;
         }
         
         .box-one img {
@@ -793,7 +795,7 @@
             }
             .main-container img {
                 width: 600px;
-                margin: 5% 0% 0% 5%;
+                margin: 5% 0% 0% 0%;
             }
             .main-container-two {
                 display: flex;
@@ -986,7 +988,7 @@
             }
             .main-container img {
                 width: 800px;
-                margin: 7% 0% 0% 5%;
+                margin: 7% 0% 0% 0%;
             }
             .main-container-two {
                 display: flex;
